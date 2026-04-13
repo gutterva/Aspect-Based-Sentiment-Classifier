@@ -10,9 +10,9 @@ from sklearn.metrics import f1_score, classification_report
 from sklearn.utils.class_weight import compute_class_weight
 
 # ── Config ─────────────────────────────────────────────────────────────────
-TRAIN_PATH      = r"C:\Users\athar\Desktop\ABSA_NLP\train.csv"
-VAL_PATH        = r"C:\Users\athar\Desktop\ABSA_NLP\val.csv"
-OUTPUT_DIR      = r"C:\Users\athar\Desktop\ABSA_NLP\sentiment_classifier"
+TRAIN_PATH      = r"C:\Users\your_path"
+VAL_PATH        = r"C:\Users\your_path"
+OUTPUT_DIR      = r"C:\Users\your_path"
 
 MODEL_NAME  = "yangheng/deberta-v3-base-absa-v1.1"
 MAX_LEN     = 128
