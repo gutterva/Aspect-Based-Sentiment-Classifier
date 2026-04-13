@@ -4,7 +4,7 @@ import re
 import ftfy
 from sklearn.model_selection import train_test_split
 
-INPUT_PATH         = r"C:\Users\athar\Desktop\ABSA_NLP\fabsa_cleaned.csv"
+INPUT_PATH         = r"C:\Users\your_path"
 OUTPUT_TRAIN       = "train.csv"
 OUTPUT_VAL         = "val.csv"
 OUTPUT_TEST        = "test.csv"
