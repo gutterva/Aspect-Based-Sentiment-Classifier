@@ -12,8 +12,8 @@ import matplotlib.pyplot as plt
 
 # ── Config ─────────────────────────────────────────────────────────────────
 TEST_PATH             = "test.csv"
-ASPECT_DETECTOR_DIR   = "aspect_detector"
-SENTIMENT_CLASSIFIER_DIR = "sentiment_classifier"
+ASPECT_DETECTOR_DIR   = "aspect_detector" #path 
+SENTIMENT_CLASSIFIER_DIR = "sentiment_classifier" #path
 MAX_LEN               = 128
 BATCH_SIZE            = 32
 RANDOM_SEED           = 42
