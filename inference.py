@@ -5,8 +5,8 @@ from transformers import RobertaTokenizer, RobertaForSequenceClassification
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 
-ASPECT_DETECTOR_DIR      = r"C:\Users\athar\Desktop\ABSA_NLP_Final\ABSA_NLP - Copy\aspect_detector"
-SENTIMENT_CLASSIFIER_DIR = r"C:\Users\athar\Desktop\ABSA_NLP_Final\ABSA_NLP - Copy\sentiment_classifier"
+ASPECT_DETECTOR_DIR      = r"C:\Users\your_path"
+SENTIMENT_CLASSIFIER_DIR = r"C:\Users\your_path"
 MAX_LEN                  = 128
 
 ASPECTS = [
