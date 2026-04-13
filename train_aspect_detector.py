@@ -10,9 +10,9 @@ from sklearn.metrics import f1_score, classification_report
 import json
 
 
-TRAIN_PATH      = r"C:\Users\athar\Desktop\ABSA_NLP\train.csv"
-VAL_PATH        = r"C:\Users\athar\Desktop\ABSA_NLP\val.csv"
-OUTPUT_DIR      = r"C:\Users\athar\Desktop\ABSA_NLP\aspect_detector"
+TRAIN_PATH      = r"C:\Users\your_path"
+VAL_PATH        = r"C:\Users\your_path"
+OUTPUT_DIR      = r"C:\Users\your_path"
 
 MODEL_NAME      = "roberta-base"
 MAX_LEN         = 128
